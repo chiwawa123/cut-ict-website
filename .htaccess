@@ -1,0 +1,12 @@
+# BEGIN ServeStatic
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /ict/
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /ict/index.html [L]
+</IfModule>
+
+# END ServeStatic 

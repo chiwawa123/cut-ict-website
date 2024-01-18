@@ -1,0 +1,12 @@
+# BEGIN ServeStatic
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /submarine/Trevor/conference-portal/delegate-frontend/
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /Junior/ict/index.html [L]
+</IfModule>
+
+# END ServeStatic 
