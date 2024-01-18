@@ -16,6 +16,11 @@
         margin-top: 15px;
     }
 
+
+    .slder-btn{
+        font-size: 11px !important; 
+    }
+
  a.meanmenu-reveal {
     display: none;
 }
@@ -576,6 +581,27 @@ max-width: 122px;
     overflow-x:hidden !important;
     
    }
+
+   .slider-btn{
+    font-size: 7px !important; 
+    width: 70px;
+    margin-top: 30px !important;
+    padding: 3px !important;
+    margin-left: 10% !important;
+    text-align: center;
+    color: #fff !important;
+
+}
+.slider-bttn{
+    font-size: 7px !important; 
+    width: 70px;
+    margin-top: 30px !important;
+    padding: 3px !important;
+    margin-left: 10% !important;
+    text-align: center;
+    color: #fff !important;
+}
+
    [class*="col-"] {
     width: 100% !important;
   }
@@ -593,7 +619,7 @@ max-width: 122px;
 
    .images_box figure img {
     width: 100%;
-    min-height: 200px !important;
+  
     }
    p {
     font-size: 90% !important;
