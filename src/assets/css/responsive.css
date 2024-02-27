@@ -15,6 +15,13 @@
         z-index: 999;
         margin-top: 15px;
     }
+    .carousel-indicators li {
+        width: 8px !important;
+        height: 8px !important;
+        border-radius: 10px;
+        background: #585757;
+        margin: 5px 0px;
+    }
 
 
     .slder-btn{
@@ -530,6 +537,14 @@ max-width: 122px;
     margin-top: 0px;
 
 }
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background: #585757;
+    margin: 5px 0px;
+}
+
 .mean-container .mean-bar {
     background: #24b0ed;
     float: left;
@@ -581,6 +596,14 @@ max-width: 122px;
     overflow-x:hidden !important;
     
    }
+   .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background: #585757;
+    margin: 5px 0px;
+}
+
 
    .slider-btn{
     font-size: 7px !important; 
@@ -622,7 +645,8 @@ max-width: 122px;
   
     }
    p {
-    font-size: 90% !important;
+    font-size: 10px !important;
+    line-height: normal !important;
    }
    .mean-container .mean-bar {
     background: #24b0ed;

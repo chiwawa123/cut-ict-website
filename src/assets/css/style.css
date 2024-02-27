@@ -572,7 +572,7 @@ nav.main-menu {
 }
 
 .dropdown-bar.right-dropdown-language>a::after {
-    font-family: 'FontAwesome';
+    font-family: 'poppins';
     content: "\f107";
     text-decoration: none;
     padding-left: 4px;
@@ -968,7 +968,7 @@ nav.main-menu {
 .actions .btn-process {
     padding: 5px 16px;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     border-radius: 2px;
     overflow: hidden;
@@ -1351,10 +1351,10 @@ nav.main-menu {
 }
 
 .carousel-indicators li {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border-radius: 10px;
-    background: #000;
+    background: #333232;
     margin: 5px 0px;
 }
 
@@ -1831,22 +1831,22 @@ nav.main-menu {
 
 .footer {
     background: #24b0ed;
-    margin-top: 125px;
+    margin-top: 55px;
 }
 
 .footer h2 {
     color: #fff;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 20px;
     text-align: left;
 }
 
 .footer span {
     color: #fff;
     font-size: 17px;
-    line-height: 28px;
-    padding-bottom: 30px;
     display: block;
+    margin: 0px auto;
+    text-align:center;
 }
 
 .footer .address h3 {

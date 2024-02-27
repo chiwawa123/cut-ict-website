@@ -154,7 +154,7 @@
                                     </span>
                                 </a>
                             </li>
-                         
+
 
 
                         </ul>
@@ -165,4 +165,39 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="container mt-5 bootstrap snippets bootdey">
+  <div class="row my-4">
+    <div class="col-12 text-center">
+      <h2><strong></strong> <strong class="">DOWNLOADABLE SOFTWARES</strong></h2>
+    </div>
+    <br>
+
+    <div class="container mt-3">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Software Purpose</th>
+            <th>Commercial Software</th>
+            <th>Alternative Open Source Software</th>
+            <th>Download Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let software of softwareDetails">
+
+            <td>{{ software.id }}</td>
+            <td>{{ software.softwarePurpose }}</td>
+            <td>{{ software.commercialSoftware }}</td>
+            <td>{{ software.alternativeOpenSourceSoftware }}</td>
+            <td>
+              <a href="{{ software.downloadLink }}" target="_blank"><i style="color: #24b0ed;" class="fa-solid fa-download ml-5"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
